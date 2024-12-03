@@ -1,0 +1,124 @@
+
+:root{
+    ---primary-color: #f45709;
+    ---font-color-primary: #333;
+    ---font-color-secondary: #FFF;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+
+}
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: var(---font-color-primary);
+
+}
+
+.container{
+    background: var(---primary-color);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px 100px;
+}
+
+.logo{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-left: -50px;
+}
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: -350px;
+    box-sizing: border-box;
+
+
+}
+.nav-link{
+    padding: 10px 20px;
+    font-size: 22px;
+    font-weight: bolder;
+    color: #fff;
+    border-bottom: 3px solid var(---primary-color);
+}
+.nav-link:hover{
+    border-bottom: 3px solid var(---font-color-secondary);
+}
+
+.social-icons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.icon-img{
+    width: 40px;
+    padding: 0 7px;
+}
+.header-container{ 
+    background-image: linear-gradient(rgba(0, 0, 0, .50),
+    rgba(0, 0, 0, .50)), url("../img/bg-1.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.title {
+    color: var(---font-color-secondary);
+    font-size: 40px;
+    font-weight: bolder;
+    padding: 15px;
+
+
+
+}
+.paragraph{
+    color: var(---font-color-secondary); 
+    width: 50%;
+    line-height: 1.2;
+}
+.copy{
+    color: var(---font-color-secondary);
+    font-size: 20px;
+}
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.main-container{
+    margin: 100px 200px;
+    padding: 50px ;
+    display: grid;
+    grid-template-columns: 310px 1fr;
+    gap: 30px;
+    background-color: rgba(0, 0, 0, .15);
+    
+}
+.main-container .title{
+    padding: 0 ;
+    color: var(---font-color-primary
+    );
+}
+.main-container .paragraph{
+    color: var(---font-color-primary
+    );
+    padding-left: 20px;
+}
+.main-image{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
